@@ -1,0 +1,70 @@
+zh-CN:
+  activerecord:
+    attributes:
+      spree/review:
+        name: 您的姓名
+        title: 标题
+        review: 内容
+        rating: 打分
+        created_at: 日期
+        ip_address: IP地址
+        user: 用户
+    models:
+      spree/review:
+        one: "一个评价"
+        other: "评价（%{count}）"
+  spree:
+    
+    approve: 批准
+    approved_reviews: 已批准的评价
+    are_you_sure_review: 你确定要删除评价？
+    average_customer_rating: 好评度
+    back_reviews: 回到评价页面
+    based_upon_review_count:
+      one: 根据一次评价
+      other: "根据%{count}次评价得出"
+    by: 被
+    date_: 日期
+    edited_version: '编辑过的版本'
+    editing_review_for_html: '编辑评价%{link}'
+    error_approve_review: 批准评价错误
+    error_no_product: 评价过的商品已经不存在了
+    feedback: 反馈
+    feedback_review_for: "评价: '%{review}'"
+    for: 为了
+    from: 来自
+    info_approve_review: 批准评价成功
+    leave_us_a_review_for: "请为'%{name}'打分"
+    no_reviews_available: "这个商品还没有任何评论。"
+    original_version: '初始版本'
+    out_of_5: "满分 5 分"
+    rating: 等级
+    reviews: 商品评价
+    review_management: 评价管理
+    review_successfully_submitted: 评价商品成功。
+    review_not_submitted: 提交评价失败。
+    spree_reviews:
+      feedback_rating: 等级反馈
+      include_unapproved: 包含未批准的评价
+      manage_review_settings: 评论显示设置
+      preview_size: 评论片段长度
+      require_login: 只有登陆用户才能评论
+      review_settings: 评论设置
+      show_email: 显示邮件地址
+      track_locale: 跟踪用户地理位置
+    star:
+      one: "1"
+      other: "%{count}"
+    stars: 星
+    submit_your_review: 提交你的评价
+    submitted_on: 评价于
+    terms_and_conditions: 条款和条件
+    terms_text: 所有选择必须符合条款
+    unapproved_reviews: 未批准的评论
+    voice:
+      one: "1次投票"
+      other: "%{count}次投票"
+    was_this_review_helpful: "这个评论对你有用吗？"
+    write_your_own_review: 献上你自己的宝贵评论
+    you_must_enter_value_for_rating: "请你给商品打分。"
+    back_to_reviews_list: "回到评论列表"
